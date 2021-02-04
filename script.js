@@ -2,12 +2,12 @@
 let gamesIndex = require('./cullenites');
 console.log('cullenites: ', gamesIndex);
 
-gamesIndex.addToList('THIS IS THE ONE');
+gamesIndex.addToList('Super Smash Brothers Ultimate');
 //gamesIndex is what the variable is set to, to grab the js file names cullenites
 // NOTES: keep naming structure identical and not name things the same name
 
 //gamesIndex.gamesIndex is the files being called and using the functions from implemented inside the object
-console.log('gamiesindex', gamesIndex.gamesIndex);
+console.log('gamesIndex', gamesIndex.gamesIndex);
 
 let favoriteNumber = require('./favoriteNumber');
 console.log('this is my favorite number: ', favoriteNumber);
